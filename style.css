@@ -1,0 +1,461 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+    background-color: #0B0F1A;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+
+}
+
+.navbar {
+    background-color: #111827;
+    margin: 0;
+    overflow-x: auto;
+    border-bottom: 1px solid rgb(70, 74, 97);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar li {
+    margin: 10px 0;
+    list-style: none;
+    user-select: none;
+}
+
+.navbar .last li {
+    margin: 10px 8px;
+}
+
+.navbar a:link {
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.navbar a:visited {
+    color: #ffffff;
+}
+
+.navbar a:hover {
+    color: #cda8f7;
+}
+
+.navbar a:active {
+    color: #ffffff;
+}
+
+.navbar .logoh1 {
+    font-size: 22px;
+}
+
+.navbar .dev {
+    color: #ffffff;
+}
+
+.navbar .folio {
+    color: #9055ff;
+}
+
+.navbar .first {
+    margin-left: -22px;
+
+}
+
+.navbar .last ul {
+    display: flex;
+}
+
+.navbar .last {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.frontend {
+    color: #ffffff91;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 13px;
+    margin: 12px;
+    margin-top: 22px;
+    border: 1px solid rgba(255, 255, 255, 0.253);
+    display: inline-block;
+    padding: 3px;
+    background-color: #ab93e03d;
+
+
+}
+
+main {
+    flex: 1;
+}
+
+.container .experiences {
+    color: #9055ff;
+}
+
+.container .mainh1 {
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    margin-top: 1px;
+    text-transform: capitalize;
+    margin-left: 12px;
+}
+
+.contactme {
+    color: #ffffff;
+    border: 2px solid #9055ff;
+    background-color: #9055ff59;
+    text-decoration: none;
+    user-select: none;
+    padding: 6px;
+    margin-left: 12px;
+    margin-top: 10px;
+    display: inline-block;
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+}
+
+.aofcontact a:link {
+    color: #ffffff;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.aofcontact a:hover {
+    background-color: #9055ff;
+}
+
+.container .intro {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    width: 300px;
+    margin-left: 12px;
+}
+
+.skillbox {
+    display: flex;
+    margin-top: -8px;
+}
+
+.skill {
+    margin: 0 10px;
+    padding: 16px 10px;
+    text-align: center;
+    justify-self: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+.skill1 {
+    background-color: #E34F26;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.skill2 {
+    background-color: #1572B6;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 16px 16px;
+
+}
+
+.skill3 {
+    background-color: #15b686;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 16px 16px;
+}
+
+.mskill {
+    color: #9055ff;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 30px;
+
+}
+
+.h3 {
+    color: #9055ff;
+    font-family: "Work Sans", sans-serif;
+    margin-top: 30px;
+    margin-left: 12px;
+}
+
+.aboutmeh3 {
+    margin-left: 12px;
+    margin-top: -11px;
+    width: 300px;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+.footpara {
+    color: #ffffff;
+    margin: 25px 40px;
+
+}
+
+.footer {
+    background-color: #111827;
+    border-top: 1px solid rgb(70, 74, 97);
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.lastcontent {
+    color: #9055ff;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.points {
+    color: #ffffff;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: capitalize;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about h2 {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 26px;
+}
+
+.about .me {
+    color: #9055ff;
+}
+
+.about p {
+    color: #b5b7d1;
+    font-family: "Inter", sans-serif;
+    margin: 20px 50px;
+
+}
+
+section {
+    flex: 1;
+}
+
+.contactof {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 26px;
+}
+
+.contme {
+    color: #9055ff;
+
+}
+
+.fullcontact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.firstpara {
+    color: #ffffff;
+    margin: 10px 50px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+.no {
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.no a:link {
+    color: #9055ff;
+    text-decoration: none;
+}
+.no a:visited{
+    color: #9055ff;
+}
+.no a:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 500px) {
+    .navbar li {
+        margin: 26px 0;
+    }
+    .navbar .last li {
+    margin: 10px 14px;
+}
+.navbar .logoh1 {
+    font-size: 30px;
+}
+.navbar .last {
+    margin-right: 10px;
+    font-size: 19px;
+}
+.frontend{
+    font-size: 15px;
+}
+.container .mainh1 {
+    font-size: 30px;
+    margin-top: 2px;
+    margin-left: 14px;
+}
+
+.contactme {
+    padding: 10px;
+    margin-left: 14px;
+    margin-top: 12px;
+    font-size: 15px;
+}
+
+.container .intro {
+    font-size: 16px;
+    width: 400px;
+    margin-left: 14px;
+}
+
+.skillbox {
+    margin-top: -5px;
+}
+
+.skill {
+    margin: 0 10px;
+    padding: 18px 12px;
+}
+
+
+.skill2 {
+    padding: 16px 19px;
+
+}
+
+
+.mskill {
+    margin-left: 14px;
+    margin-top: 35px;
+    font-size: 24px;
+
+}
+
+.h3 {
+    margin-top: 35px;
+    margin-left: 14px;
+    font-size: 24px;
+}
+
+.aboutmeh3 {
+    margin-left: 14px;
+    margin-top: -11px;
+    width: 400px;
+    font-size: 16px;
+}
+
+.lastcontent {
+    margin-left: 14px;
+    margin-top: 35px;
+    font-size: 24px;
+}
+
+.points {
+    line-height: 27px;
+    font-size: 17px;
+}
+
+.about h2 {
+    font-size: 30px;
+}
+
+.about p {
+    margin: 20px 70px;
+    font-size: 18px;
+}
+
+.contactof {
+    font-size: 30px;
+}
+
+
+.firstpara {
+    margin: 12px 50px;
+    font-size: 18px;
+}
+
+.no {
+    font-size: 18px;
+}
+
+}
+
+@media only screen and (min-width: 1024px) {
+  
+.about p {
+    margin: 20px 280px;
+}
+
+.no {
+    font-size: 18px;
+    margin-top: 30px;
+}
+.container .intro {
+    font-size: 18px;
+}
+.mskill{
+    font-size: 28px;
+}
+.h3{
+    font-size: 28px;
+}
+.aboutmeh3{
+    font-size: 18px;
+}
+.lastcontent{
+    font-size: 28px;
+}
+.points{
+    font-size: 20px;
+}
+.about h2{
+    font-size: 35px;
+}
+.about p{
+    font-size: 20px;
+}
+.contactof{
+    font-size: 35px;
+}
+.firstpara{
+    font-size: 20px;
+}
+.no{
+    font-size: 20px;
+}
+}
