@@ -118,7 +118,7 @@ header {
     cursor: pointer;
     font-size: 23px;
     user-select: none;
-
+    
     
 }
 .container {
@@ -403,11 +403,19 @@ section {
         margin-right: 10px;
     }
     .navbar .last ul{
-        display: flex;
         flex-direction: row;
         position: static;
+        align-items: normal;
+        justify-content: normal;
+        right: auto;
+        top: auto;
+        background-color: transparent;
+        transition: none;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        height: auto;
+} 
         
-    }
     .last a.activebutton {
     text-decoration: underline;
     text-decoration-color: var(--sec-color);
