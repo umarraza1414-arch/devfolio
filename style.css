@@ -87,6 +87,11 @@ header {
     margin-left: -21px;
 
 }
+.first .brandname{
+    color: rgb(145, 145, 145);
+    margin-top: -18px;
+    font-size: 11px;
+}
 
 .navbar .last ul {
     display: flex;
@@ -100,9 +105,12 @@ header {
     transition: all 0.4s ease 0s;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    height: 25vh;
+    height: 160px;
 }
 
+.navbar .last ul li{
+    margin-bottom: 2vh;
+}
 .navbar .last {
     margin-right: 10px;
     font-size: 16px;
@@ -118,7 +126,7 @@ header {
     cursor: pointer;
     font-size: 23px;
     user-select: none;
-    
+    -webkit-tap-highlight-color: transparent;
     
 }
 .container {
@@ -399,6 +407,11 @@ section {
 
     }
 
+    .first .brandname{
+    margin-top: -20px;
+    font-size: 12px;
+    }
+
     .navbar .last {
         margin-right: 10px;
     }
@@ -569,6 +582,10 @@ section {
         margin-left: -10px;
     }
 
+    .first .brandname{
+    margin-top: -21px;
+    font-size: 12px;
+    }
     .navbar .last {
         margin-right: 5px;
     }
