@@ -17,6 +17,10 @@ body {
     flex-direction: column;
     overflow-x: hidden;
 }
+*::selection{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
 
 :root {
     --main-color: #ffffff;
@@ -88,7 +92,7 @@ header {
 
 }
 .first .brandname{
-    color: rgb(145, 145, 145);
+    color: var(--about-contact);
     margin-top: -18px;
     font-size: 11px;
 }
@@ -101,10 +105,12 @@ header {
     position: fixed;
     right: -100%;
     top: 10%;
-    background-color: #7647ce;
+    background-color: var(--sec-color);
     transition: all 0.4s ease 0s;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    border: 3px solid var(--main-color);
+    border-right: none;
     height: 160px;
 }
 
@@ -121,7 +127,7 @@ header {
 }
 
 .hamburger{
-    color: white;
+    color: var(--main-color);
     margin-right: 10px;
     cursor: pointer;
     font-size: 23px;
@@ -134,18 +140,18 @@ header {
 }
 
 .frontend {
-    color: rgb(183, 189, 221);
+    color: var(--about-contact);
     font-family: "Open Sans", sans-serif;
     font-size: 0.8rem;
     margin-top: 22px;
-    border: 1px solid rgb(186, 190, 216);
+    border: 1px solid var(--about-contact);
     display: inline-block;
-    background-color: #0B0F1A;
+    background-color: transparent;
     border-radius: 5px;
     padding: 4px;
 }
 .myname{
-    color: rgb(171, 176, 179);
+    color: var(--about-contact);
     margin-top: 12px;
     font-size: 1rem;
 }
@@ -167,7 +173,7 @@ main {
 }
 
 .contactme {
-    color: black;
+    color: var(--main-color);
     border: 2px solid rgb(191, 166, 231);
     background-color: var(--sec-color);
     text-decoration: none;
@@ -183,13 +189,15 @@ main {
 
 
 .aofcontact a:link {
-    color: black;
+    color: var(--main-color);
     -webkit-tap-highlight-color: transparent;
-    transition: background-color 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s;
 }
 
 .aofcontact a:hover {
     background-color: #7647ce;
+    transform: translate(1px);
+    box-shadow: -1px 1px 5px 0 var(--main-color);
 }
 
 .container .intro {
@@ -209,7 +217,7 @@ main {
 
 .skill {
     color: var(--main-color);
-    background-color: #0B0F1A;
+    background-color: transparent;
     margin: 0 10px;
     padding: 16px 10px;
     text-align: center;
@@ -220,7 +228,7 @@ main {
     border-radius: 10px;
     font-family: "Inter", sans-serif;
     box-shadow: 0 4px 10px rgba(116, 104, 228, 0.3);
-
+    flex-shrink: 2;
 
 }
 
@@ -319,7 +327,7 @@ main {
 .about>div {
     color: var(--main-color);
     font-family: "Inter", sans-serif;
-    border: 2px solid white;
+    border: 2px solid var(--main-color);
     margin: 10px 10vw;
     padding: 3vh 10px;
     display: flex;
@@ -450,7 +458,6 @@ section {
     }
 
     .myname{
-    color: rgb(171, 176, 179);
     margin-top: 12px;
     font-size: 1.1rem;
     }
@@ -594,7 +601,6 @@ section {
         padding-left: 2rem;
     }
     .myname{
-    color: rgb(171, 176, 179);
     margin-top: 12px;
     font-size: 1.2rem;
     }
