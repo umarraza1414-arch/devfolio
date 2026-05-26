@@ -435,6 +435,7 @@ section {
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
         height: auto;
+        border: none;
 } 
         
     .last a.activebutton {
